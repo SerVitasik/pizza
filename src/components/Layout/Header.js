@@ -12,9 +12,9 @@ function Header() {
                 <h1>PizzaLove</h1>
                 <HeaderCartButton></HeaderCartButton>
             </header>
-            <div className={classes['main-image']}>
+            {/* <div className={classes['main-image']}>
                 <img src={mealsImg} alt="meals-bg" />
-            </div>
+            </div> */}
         </React.Fragment>
     );
 }

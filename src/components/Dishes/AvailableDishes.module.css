@@ -1,0 +1,33 @@
+.dishes {
+    padding-top: 100px;
+    font-family: 'Montserrat';
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.dishes__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.dishes__list li {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    text-align: center;
+    column-gap: 15px;
+}
+
+.dishes__list li h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.dishes__list li img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
