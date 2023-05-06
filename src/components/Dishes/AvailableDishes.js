@@ -1,4 +1,4 @@
-import Dish from "./Dish";
+import DishItem from "./DishItem";
 import classes from './AvailableDishes.module.css';
 
 const DISHES = [
@@ -51,7 +51,7 @@ function AvailableDishes() {
     return (
         <section className={classes.dishes}>
             <ul className={classes['dishes__list']}>
-                {DISHES.map(dish => <Dish key={dish.id} name={dish.name} description={dish.description} price={dish.price} img={dish.img} />)}
+                {DISHES.map(dish => <DishItem key={dish.id} id={dish.id} name={dish.name} description={dish.description} price={dish.price} img={dish.img} />)}
             </ul>
         </section>
     );

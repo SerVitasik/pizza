@@ -6,7 +6,7 @@ function Dishes() {
     return (
         <React.Fragment>
             <AvailableDishes />
-            <DishSummary />
+            {/* <DishSummary /> */}
         </React.Fragment>
     );
 }

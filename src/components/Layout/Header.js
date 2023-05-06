@@ -5,12 +5,12 @@ import HeaderCartButton from './HeaderCartButton';
 
 
 
-function Header() {
+function Header(props) {
     return (
         <React.Fragment>
             <header className={classes.header}>
                 <h1>PizzaLove</h1>
-                <HeaderCartButton></HeaderCartButton>
+                <HeaderCartButton onOpenModal={props.onOpenModal}></HeaderCartButton>
             </header>
             {/* <div className={classes['main-image']}>
                 <img src={mealsImg} alt="meals-bg" />

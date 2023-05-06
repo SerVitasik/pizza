@@ -1,0 +1,31 @@
+.dish {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    column-gap: 15px;
+}
+
+.dish__name {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.dish__image {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.dish__description {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.dish__price {
+    padding-left: 10px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
