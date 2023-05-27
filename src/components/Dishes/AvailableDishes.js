@@ -47,7 +47,6 @@ const DISHES = [
 ];
 
 function AvailableDishes() {
-
     return (
         <section className={classes.dishes}>
             <ul className={classes['dishes__list']}>
